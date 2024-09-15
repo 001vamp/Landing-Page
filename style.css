@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: #007bf7;
+}
+/* Layout & Specific Styling */
+.header {
+  background-color: #0c0218;
+  color: #f9faf8;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12 px;
+}
+
+.header-logo {
+  font-size: 24px;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.hero {
+  display: flex;
+  padding: 36px;
+  gap: 48px;
+  justify-content: center;
+}
